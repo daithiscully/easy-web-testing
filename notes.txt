@@ -1,0 +1,7 @@
+API endpoints:
+
+GET		/api/v1/shipwrecks (list)
+POST	/api/v1/shipwrecks (add)
+GET		/api/v1/shipwrecks/{id} (view)
+PUT		/api/v1/shipwrecks/{id} (update)
+DELETE	/api/v1/shipwrecks/{id} (delete)
