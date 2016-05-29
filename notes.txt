@@ -5,3 +5,21 @@ POST	/api/v1/shipwrecks (add)
 GET		/api/v1/shipwrecks/{id} (view)
 PUT		/api/v1/shipwrecks/{id} (update)
 DELETE	/api/v1/shipwrecks/{id} (delete)
+
+
+
+Setting environment at runtime:
+Add this to VM run configurations in eclipse or on CLI when running jar
+-Dspring.profiles.active=prod
+-Dspring.profiles.active=test
+Leave out the command to use the default.
+NOTE: the prod and test properties will overwrite any same pros in the default but any default ones will also be used
+
+
+
+Useful page with application property stuff:
+https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+
+
+MIGRATION SCRIPT IS CURRENTLY ONLY H2
+
